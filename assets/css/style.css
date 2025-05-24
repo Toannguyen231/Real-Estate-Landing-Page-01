@@ -5,11 +5,13 @@
 html {
     font-size: 62.5%;
     --primary-color: #0F1B4C;
+    scroll-behavior: smooth;
 }
 
 body {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* ==== Conmmon ==== */
@@ -69,12 +71,6 @@ a {
     z-index: 1;
 }
 
-.header {
-    position: relative;
-    background: #E6F0FF;
-    height: calc(100vh - 85px);
-}
-
 .navbar {
     display: flex;
     align-items: center;
@@ -120,6 +116,13 @@ a {
 }
 
 /* ==== Hero ===== */
+
+.hero-wrap {
+    position: relative;
+    background: #E6F0FF;
+    height: calc(100vh - 85px);
+}
+
 
 .hero {
     padding-top: 130px;
